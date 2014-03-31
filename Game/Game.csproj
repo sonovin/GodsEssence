@@ -126,6 +126,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Attributes.cs" />
+    <Compile Include="Models\CharacterModel.cs" />
+    <Compile Include="Models\Position.cs" />
     <Compile Include="Models\SkillModel.cs" />
     <Compile Include="Models\TileModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

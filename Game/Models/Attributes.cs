@@ -7,8 +7,9 @@ namespace Game.Models
 {
     public class Attributes
     {
-        enum Attribute
+        public enum Attribute
         {
+            DEAD = -1,
             NONE = 0,
             BURNING = 1,
             FROST_BITE = 2,
@@ -16,6 +17,6 @@ namespace Game.Models
             POISON = 4,
             BLIND = 5
         };
-        public Attribute effect;
+        public Attribute Effect;
     }
 }

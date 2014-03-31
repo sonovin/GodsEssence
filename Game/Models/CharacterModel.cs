@@ -5,13 +5,12 @@ using System.Web;
 
 namespace Game.Models
 {
-    public abstract class SkillModel
+    public class CharacterModel
     {
         public int Level;
         public string Name;
         public string Description;
-        public bool active;
-        public List<Attribute> Effects;
-        public abstract double Action();
+        public List<Attributes> Status;
+        public Position Location;
     }
 }

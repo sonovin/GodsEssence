@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Game.Models
 {
-    public abstract class TileModel
+    public class Position
     {
-        public string name;
-        public abstract void Affects(CharacterModel character);
+        public int X;
+        public int Y;
     }
 }
