@@ -12,5 +12,11 @@ namespace Game.Models
         public string Description;
         public List<Attributes> Status;
         public Position Location;
+        public int Strength;
+        public int Intelligence;
+        public int Dexterity;
+        public int Vitality;
+        public int Wisdom;
+        public int Luck;
     }
 }
