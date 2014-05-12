@@ -9,5 +9,9 @@ namespace Game.Models
     {
         public string name;
         public abstract void Affects(CharacterModel character);
+        public TileModel North;
+        public TileModel South;
+        public TileModel West;
+        public TileModel East;
     }
 }
