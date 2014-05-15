@@ -13,5 +13,6 @@ namespace Game.Models
         public TileModel South;
         public TileModel West;
         public TileModel East;
+        public ObjectModel Occupy;
     }
 }

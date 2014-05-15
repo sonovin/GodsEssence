@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Game.Models
 {
-    public class CharacterModel
+    public class CharacterModel: ObjectModel
     {
         public int Level;
         public string Name;
